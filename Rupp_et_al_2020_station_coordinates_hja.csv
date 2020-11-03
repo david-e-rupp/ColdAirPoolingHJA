@@ -1,0 +1,37 @@
+# Coordinates and elevations of sensors at H. J. Andrews Experimental Forest used in Rupp et al. (2020). Temperature gradients and inversions in a forested Cascade Range basin: Synoptic- to local-scale controls. J. Geophys. Res. Atmos. x(x). xx-xx. https://doi.org/10.1029/2020JD032686
+# See Rupp et al. (2020) for description of data sources and processing steps.
+# File created 2020-11-03 by David E. Rupp (david.rupp@oregonstate.edu).
+# Spheroid is WGS84.
+# LLT = Lower Lookout transect; ULT = Upper Lookout transect. Numbers following LLT and ULT give the sensor ID.
+# PRIMET = Primary meteorological station; VANMET = Vanilla Leaf meteorological station; RS02 = Reference Stand 2; RS04 = Reference Stand 4.
+# Column: Short name - Description
+# 1: NAME - Sensor identifier
+# 2: LAT - Latitude (decimal degrees north)
+# 3: LON - Longitude (decimal degrees east)
+# 4: ELEVATION - Elevation (meters above mean sea level)
+NAME,LAT,LON,ELEVATION
+LLT529,44.238511,-122.223319,807
+LLT501,44.236362,-122.219204,684
+LLT502,44.235187,-122.218789,657
+LLT519A,44.233,-122.218613,616
+LLT503,44.23233,-122.218093,588
+LLT504,44.230678,-122.220447,533
+LLT505,44.230361,-122.217834,532
+LLT506,44.228839,-122.214905,581
+LLT507,44.22849,-122.214018,622
+LLT508,44.226676,-122.213663,673
+ULT510,44.237197,-122.142694,923
+ULT511,44.234614,-122.144836,870
+ULT512,44.233558,-122.144364,839
+ULT513,44.232115,-122.143554,829
+ULT514,44.231751,-122.143317,816
+ULT515,44.231103,-122.143545,837
+ULT516,44.230665,-122.143295,867
+ULT517,44.230366,-122.143346,886
+ULT518,44.229933,-122.143228,916
+ULT519B,44.229618,-122.143454,944
+ULT520,44.229049,-122.143103,979
+PRIMET,44.211893,-122.255941,436
+VANMET,44.271618,-122.149368,1268
+RS02,44.2181224,-122.2434299,490
+RS04,44.2730794,-122.1368634,1310
