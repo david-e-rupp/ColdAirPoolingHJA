@@ -1,0 +1,38 @@
+# Values for Figure S2 in Rupp et al. (2020). Temperature gradients and inversions in a forested Cascade Range basin: Synoptic- to local-scale controls. J. Geophys. Res. Atmos. x(x). xx-xx. https://doi.org/10.1029/2020JD032686
+# File created 2020-11-03 by David E. Rupp (david.rupp@oregonstate.edu).
+# Relative importance of predictors of temperature gradients at 06:00 and 14:00 PST using boosted regression trees
+# RS02 = Reference Stand 2; RS04 = Reference Stand 4; PRIMET = Primary meteorological station; VANMET = Vanilla Leaf meteorological station; LLT = Lower Lookout transect; ULT = Upper Lookout transect
+#
+# Free_air_temp_grad = ERA5 temperature gradient in Figure S2
+# Vorticity = Vorticity in Figure S2
+# Flow_strength = Flow strength in Figure S2
+# Cloudiness = Cloudiness in Figure S2
+# Clear_sky_solar = Clear-sky insolation in Figure S2
+#
+# 06:00 PST with ERA5 free-air temperature gradient predictor (Figure S2a)
+"Site","Free_air_temp_grad","Vorticity","Flow_strength","Cloudiness","Clear_sky_solar"
+"VANMET-PRIMET",0.531629711035342,0.0900074422965019,0.0396360942598395,0.0197981150813795,0.0389286373269376
+"RS04-RS02",0.549634756019745,0.100283530630617,0.031916972986909,0.0291281757245026,0.039036564638226
+"LLT",0.382194751736424,0.0425594011080891,0.0372607126188454,0.0386495869584207,0.0293355475782207
+"ULT",0.321938049404038,0.142054039591338,0.0571264182795473,0.0372979107985969,0.031583581926479
+#
+# 14:00 PST with ERA5 free-air temperature gradient predictor (Figure S2b)
+"Site","Free_air_temp_grad","Vorticity","Flow_strength","Cloudiness","Clear_sky_solar"
+"VANMET-PRIMET",0.555185083311973,0.0336685478565147,0.0280617725804492,0.0525000515918531,0.0705845446592097
+"RS04-RS02",0.499324947814431,0.0412648424386504,0.0273155038189541,0.0345035281495417,0.157591177778423
+"LLT",0.347713194081327,0.0236059968656682,0.0173439470303855,0.0939656127310634,0.107371249291556
+"ULT",0.187765037596017,0.232000725002375,0.0331414124071664,0.123594367945794,0.0534984570486478
+#
+# 06:00 PST without ERA5 free-air temperature gradient predictor (Figure S2c)
+"Site","Vorticity","Flow_strength","Cloudiness","Clear_sky_solar"
+"VANMET-PRIMET",0.254382523802708,0.075508708752957,0.13317525341451,0.0369335140298249
+"RS04-RS02",0.221391855912675,0.0762275251172385,0.222200150393293,0.0401804685767934
+"LLT",0.114674372066428,0.07135857075781,0.17098058714356,0.0329864700322026
+"ULT",0.238497251934358,0.0912399838001471,0.119427864877347,0.0408348993881475
+#
+# 14:00 PST without ERA5 free-air temperature gradient predictor (Figure S2d)
+"Site","Vorticity","Flow_strength","Cloudiness","Clear_sky_solar"
+"VANMET-PRIMET",0.161331303534028,0.0471657664779207,0.18178906794341,0.259713862044642
+"RS04-RS02",0.145195837627514,0.041999304889879,0.114555079629989,0.368249777852618
+"LLT",0.0863312139157448,0.044674232407225,0.183758702165885,0.255235851511146
+"ULT",0.309393296591956,0.0462704262584764,0.130549764022297,0.0737865131272707
